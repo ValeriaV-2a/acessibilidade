@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
  }
 
 body {
@@ -180,7 +183,8 @@ h2 {
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary{
-    background-color var(--alto-contraste-fundo)
+    background-color var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
 }
 
 .alto-contraste #tropicalia {
